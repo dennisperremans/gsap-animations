@@ -23,11 +23,12 @@ document.querySelectorAll(".animate-stagger").forEach(el => {
 /*
  * CARDS ARC FLY-IN
  */
+const cardContainer = document.querySelector(".card-container");
+const radius = parseFloat(cardContainer.dataset.radius) || 300;
+const arcSpread = parseFloat(cardContainer.dataset.arcSpread) || 70;
+const centerY = parseFloat(cardContainer.dataset.centerY) || 150;
 const cards = document.querySelectorAll(".animate-card");
 const total = cards.length;
-const radius = 300;
-const arcSpread = 70;
-const centerY = 150;
 
 cards.forEach((card, index) => {
     const angleDeg = gsap.utils.mapRange(0, total - 1, -arcSpread / 2, arcSpread / 2, index);

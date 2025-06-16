@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Animations</title>
         <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="css/styles.css" />
+        <link rel="stylesheet" href="css/general.css" />
         <link rel="stylesheet" href="css/animations.css" />
     </head>
     <body>
@@ -18,7 +18,7 @@
         </p>
 
         <!-- CARDS FLY IN ANIMATION -->
-        <div class="card-container">
+        <div class="card-container" data-radius="300" data-arc-spread="70" data-center-y="150">
             <div class="card animate-card" style="--color:#F94144">
                 <div class="swatch"></div>
                 <div class="label title">Card title</div>
