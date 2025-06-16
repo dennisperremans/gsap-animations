@@ -1,0 +1,12 @@
+body {
+    overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
+    padding: 2rem;
+    background: #f0f0f0;
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2.5rem;
+}
