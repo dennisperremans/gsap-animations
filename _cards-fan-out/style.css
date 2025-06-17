@@ -1,10 +1,4 @@
-.animate-stagger span {
-    display: inline-block;
-    transform: translateX(100px);
-    opacity: 0;
-    margin-right: 5px;
-    white-space: nowrap;
-}
+
 
 .card-container {
     position: relative;
@@ -52,5 +46,11 @@
     padding: 10px;
     text-align: center;
     color: #BBB;
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2.5rem;
 }
 

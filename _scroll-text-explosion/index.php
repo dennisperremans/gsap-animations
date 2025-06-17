@@ -3,8 +3,10 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>GSAP Scroll Animation</title>
-  <link rel="stylesheet" href="css/scroll.css" />
+  <title>GSAP - Scroll Animation - Text explosion</title>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/general.css" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <div class="hero">
@@ -19,6 +21,6 @@
 
   <script src="https://unpkg.com/gsap@3/dist/gsap.min.js"></script>
   <script src="https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js"></script>
-  <script src="js/scroll.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
